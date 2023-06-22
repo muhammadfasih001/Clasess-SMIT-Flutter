@@ -1,0 +1,44 @@
+Git And GitHub Complete Guide:
+
+1. Install Git: Download and install Git on your Laptop/PC from the official website. Git is available for Windows, macOS, and Linux.
+
+First Time Setu up:
+
+2. Configure Git: Set up your name and email address using the following commands:
+
+   git config --global user.name "Username"
+   git config --global user.email "email@gmail.com"
+
+   This information is used to identify your commits.
+
+3. Initialize a repository: Create a new Git repository for your project using the `git init` command. This will set up a new repository in the current directory.
+
+4. Add files: Start tracking files by adding them to the Git repository using the `git add` command. For example, to add a file named "main.dart":
+
+   git add main.dart
+   git add . 
+   You can also use `git add .` to add all files in the current directory.
+
+5. Commit changes: Save the changes you've made to the repository with a commit using the `git commit` command. A commit includes a message that describes the changes made.
+
+   git commit -m "Initial commit message"
+   The `-m` flag is used to specify the commit message inline.
+
+6. View repository status: Check the current status of your repository with the `git status` command. It shows which files have been modified, added, or deleted.
+
+7. View commit history: See the commit history using the `git log` command. It displays a list of commits with their respective messages, authors, dates, and commit IDs.
+
+8. Push changes: Share your local repository with a remote repository, such as one hosted on GitHub, using the `git push` command.
+
+    git push origin master
+    This pushes your local "master" branch to the remote repository named "origin."
+
+9. Pull changes: Get the latest changes from a remote repository into your local repository using the `git pull` command.
+
+    git pull origin master
+    This fetches the latest changes from the "main" branch of the remote repository named "origin" and merges them into your local branch.
+
+10. Clone a repository: Create a copy of a remote repository on your local machine using the `git clone` command.
+
+    git clone <repository_url>
+    Replace `<repository_url>` with the URL of the remote repository you want to clone.
