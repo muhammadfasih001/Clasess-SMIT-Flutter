@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   Map names = {
     "name": ["muhammad fasih", "saif"],
