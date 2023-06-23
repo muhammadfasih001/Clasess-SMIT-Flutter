@@ -262,6 +262,6 @@ void main() {
   // var check = number.firstWhere((element) => element < 25);
   // print(check);
 
-  var check2 = number.lastWhere((num) => num > 4);
+  var check2 = number.lastWhere((num) => num > 6);
   print(check2);
 }
