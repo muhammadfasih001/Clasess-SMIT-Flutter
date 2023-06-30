@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   // pre increament ++i.
   // post increament i++.
