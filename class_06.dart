@@ -13,15 +13,13 @@ void main() {
     print("$tableNum X $i = ${tableNum * i}");
   }
 
-  //
-
   List<String> studentName = ["Fasih", "Bilal", "Saif", "Yasir"];
 
   for (var i = 0; i < studentName.length; i++) {
     print(studentName[i]);
   }
 
-  // for in loop.
+  // for in loop print even numbers.
 
   List studentNames = [3, 6, 1, 8, 0, 19, 10];
   List evenNumber = [];
@@ -38,7 +36,9 @@ void main() {
   print(evenNumber);
   print(oddNumber);
 
-  List studentNumber = [3, 6, 1, 8, 19, 10, 0];
+  //for loop print even numbers.
+
+  List studentNumber = [3, 6, 1, 8, 19, 10, 2];
   List evenNumbers = [];
   List oddNumbers = [];
 
@@ -52,4 +52,33 @@ void main() {
 
   print("This is an even numbers: $evenNumbers");
   print("This is an Odd numbers: $oddNumbers");
+
+  //while loop.
+
+  List<int> numbers = [2, 4, 6, 8, 10, 6, 9, 7, 3, 5, 1, 4];
+  List<int> numberEven = [];
+
+  int a = 0;
+  while (a < numbers.length) {
+    if (numbers[a] % 2 == 0) {
+      numberEven.add(numbers[a]);
+    }
+    a++;
+  }
+
+  print("This is an even number $numberEven");
+
+  //do-while loop.
+
+  List<int> number = [2, 4, 6, 8, 10, 6, 9, 7, 3, 5, 1, 4];
+  List<int> numberEvens = [];
+
+  int i = 0;
+  do {
+    if (number[i] % 2 == 0) {
+      numberEvens.add(number[i]);
+    }
+    i++;
+  } while (i < number.length);
+  print("this is an eveeeeeen number:$numberEvens");
 }
