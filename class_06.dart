@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   // pre increament ++i.
   // post increament i++.
@@ -19,7 +21,7 @@ void main() {
     print(studentName[i]);
   }
 
-  // for in loop print even numbers.
+  // // for in loop print even numbers.
 
   List studentNames = [3, 6, 1, 8, 0, 19, 10];
   List evenNumber = [];
@@ -36,7 +38,7 @@ void main() {
   print(evenNumber);
   print(oddNumber);
 
-  //for loop print even numbers.
+  // //for loop print even numbers.
 
   List studentNumber = [3, 6, 1, 8, 19, 10, 2];
   List evenNumbers = [];
@@ -53,7 +55,7 @@ void main() {
   print("This is an even numbers: $evenNumbers");
   print("This is an Odd numbers: $oddNumbers");
 
-  //while loop.
+  // //while loop.
 
   List<int> numbers = [2, 4, 6, 8, 10, 6, 9, 7, 3, 5, 1, 4];
   List<int> numberEven = [];
@@ -68,7 +70,7 @@ void main() {
 
   print("This is an even number $numberEven");
 
-  //do-while loop.
+  // //do-while loop.
 
   List<int> number = [2, 4, 6, 8, 10, 6, 9, 7, 3, 5, 1, 4];
   List<int> numberEvens = [];
@@ -81,4 +83,19 @@ void main() {
     i++;
   } while (i < number.length);
   print("this is an eveeeeeen number:$numberEvens");
+
+//while loop.
+//range not cofirm and continiously looping.
+
+//do while.
+//do-while loop print one time exactly then condition is false.
+
+  //Nested loop.
+
+  for (int a = 1; a <= 10; a++) {
+    for (int j = 1; j <= 10; j++) {
+      print("$a X $j = ${j * a}");
+    }
+    print("");
+  }
 }
