@@ -29,7 +29,7 @@ void main() {
   // Equality Operators and Relational Operators.
 
   // Condition Operators
-  // ondition operators are used to compare two values and to determine if they are equal.
+  // Condition operators are used to compare two values and to determine if they are equal.
 
   a = 10;
   b = 20;

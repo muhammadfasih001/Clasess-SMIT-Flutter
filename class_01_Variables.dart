@@ -33,4 +33,10 @@ void main() {
   // The Num is a generic type that can be used to represent any numeric value.
   num number = 10;
   print(number);
+
+  // Bool is a data type that can be used to represent a Boolean value.
+  //Boolean values can be either true or false.
+
+  bool LogIn = 15 > 14;
+  print(LogIn);
 }
