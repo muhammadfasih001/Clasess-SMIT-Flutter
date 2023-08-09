@@ -1,38 +1,38 @@
-// /*Example 1*/
-// class Person {
-//   /*Private Property use Encapsulation*/
-//   String? _firstName;
-//   String? _lastName;
-//   int? _age;
+/*Example 1*/
+class Person {
+  /*Private Property use Encapsulation*/
+  String? _firstName;
+  String? _lastName;
+  int? _age;
 
-//   /*Getter to access private property*/
-//   String get fullName {
-//     return this._firstName! + " " + this._lastName!;
-//   }
+  /*Getter to access private property*/
+  String get fullName {
+    return this._firstName! + " " + this._lastName!;
+  }
 
-//   /*Getter to access private property*/
-//   int get age {
-//     return this._age!;
-//   }
+  /*Getter to access private property*/
+  int get age {
+    return this._age!;
+  }
 
-// /* Setter to update private property*/
+/* Setter to update private property*/
 
-//   set firstName(String fN) {
-//     this._firstName = fN;
-//   }
+  set firstName(String fN) {
+    this._firstName = fN;
+  }
 
-//   set lastName(String lN) {
-//     this._lastName = lN;
-//   }
+  set lastName(String lN) {
+    this._lastName = lN;
+  }
 
-//   set ages(int a) {
-//     if (a < 0) {
-//       throw ("Age is Less than 0");
-//     } else {
-//       this._age = a;
-//     }
-//   }
-// }
+  set ages(int a) {
+    if (a < 0) {
+      throw ("Age is Less than 0");
+    } else {
+      this._age = a;
+    }
+  }
+}
 
 /*Example 2*/
 
@@ -76,14 +76,14 @@ void main() {
   Balance after Deposite: 500.0
   Balance after withdraw: 250.0*/
 
-  // Person person = Person();
+  Person person = Person();
 
-  // /* setting values to the object using setter*/
-  // person.firstName = "muhammad";
-  // person.lastName = "fasih";
-  // person.ages = 20;
+  /* setting values to the object using setter*/
+  person.firstName = "muhammad";
+  person.lastName = "fasih";
+  person.ages = 20;
 
-  // /* Display the values of the object*/
-  // print(person.fullName);
-  // print(person.age);
+  /* Display the values of the object*/
+  print(person.fullName);
+  print(person.age);
 }
